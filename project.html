@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>main-project</title>
+  <link rel="stylesheet" href="./assets/css/theme-rtl.css" />
+  <style>
+    .carousel-control-next-icon{
+      background-image: url("assets/img/icons/chevron-left-circle.svg");
+      width:50px;
+      height:50px;
+    }
+    .carousel-control-prev-icon{
+      background-image: url("assets/img/icons/chevron-right-circle.svg");
+      width:50px;
+      height:50px;
+      border: 1px seagreen;
+    }
+    .img-font{
+      font-size: 13px;
+    }
+    .fig-round{
+      border-radius: 11px 0px 11px 11px
+    }
+    .font-num{
+      font-size: 17px;
+      font-weight: bold;
+    }
+    .font-cap{
+      font-size:14px;
+      font-weight: bold; 
+    }
+    .font-cap2{
+      font-size:12px;
+      color:black;
+    }
+
+        @media screen and (min-width: 480px) {
+          .font-cap2{
+      font-size:15px;
+      color:black;
+    }
+   }
+    .ps{
+      bottom: 4px!important;
+      padding: 3px 6px;
+      color: grey;
+      background-color:rgb(244 249 255);
+    }
+    .ps-btn{
+    right: 93px;
+    top: 7px;
+    width: 26px;
+    
+    }
+    .my-btn{
+    background-color: white;
+    padding:9px 21px 7px 44px;
+    border: 2px gray solid;
+    border-radius: 10px;
+    font-size: 13px;
+    }
+    .ps-img{
+      top:48px;
+      right:127px;
+      z-index: 400;
+    }
+    @media screen and (min-width: 480px) {
+    .ps-img{
+      top:48px;
+      right:146px;
+      z-index: 400;
+    }}
+    .main-card{
+      border: 0px;
+      border-left:1px #e9e2e2 solid ;
+      border-radius: 0.625rem;
+      width: 220px;
+    }
+    .font-card{
+      font-size:10px;
+      font-weight:900;
+      color: black;
+    }
+    .img-size{
+      width:310px;
+    }
+    .p-sign{
+    top:19px;
+    left:23px;
+    z-index: 900;
+    }
+   
+    .img-sign{
+      width:68px;
+    }
+    .img-group{
+      width: 100px;
+    }
+    .p-group{
+    right: 244px;
+    top: 241px;
+    z-index:-6;
+    }
+    @media screen and (min-width: 480px) {
+  .p-group {
+    right: 284px;
+    top: 241px;
+  }
+}
+  </style>
+</head>
+
+<body>
+  <main class="container mx-auto">
+    <section class="py-4">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <div class="text-right ">
+            <h5>آخرین آگهی رهن و اجاره</h5>
+          </div>
+
+          <div class="">
+            <a href="#card1" class="carousel-control-prev " data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+
+            </a>
+            <a href="#card1" class="carousel-control-next "  data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+        </div>
+        
+
+        <div class="carousel slide mt-4" id="card1" data-bs-interval="false">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active"  >
+              <div class="row h-100">
+
+                <!-- amirhossein -->
+                <div class="col-md-3 mb-3 mb-md-0">
+                  <div class="card h-100 border-0">
+                    <div class="position-relative">
+                      <img src="./assets/img/gallery/Bg.png" class="card-img-top" alt="...">
+                      <div class="position-absolute top-0 end-0 m-2">
+                        <img src="./assets/img/gallery/Vector (Stroke).png" class="" alt="...">
+                      </div>
+                      <!-- <img src="./assets/img/gallery/Bg.png" class="card-img-top" alt="..."> -->
+                      <div class="position-absolute ps  m-2 text-grey rounded   img-font">
+                        <div class="flex">
+                          <img src="./assets/img/gallery/location.png" class="" alt="...">
+                           <span>نیاوران</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex figure-caption  opacity-50">
+                         <span>آپارتمان</span><span class="border border-grey px-2 mx-1 rounded-start-0 fig-round">دیروز</span>
+                      </div>
+                      <p  class="my-2 font-cap">رهن و اجاره آپارتمان 186 متری</p>
+
+                      <div class="d-flex figure-caption  opacity-50">
+                        <span>
+                          <img src="./assets/img/gallery/plan.png" class="" alt="...">
+                          186 متر
+                        </span><span class=" px-2 mx-1 rounded-start-0 fig-round">
+                          <img src="./assets/img/gallery/bedroom.png" class="" alt="...">
+                          3 اتاق
+                        </span>
+                     </div>
+                     <p  class="my-2  text-primary font-cap"><span class="font-num">400</span>میلیون رهن/ <span class="font-num">12</span>میلیون اجاره</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3 mb-md-0">
+                  <div class="card h-100 border-0">
+                    <div class="position-relative">
+                      <img src="./assets/img/gallery/Pic.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex figure-caption  opacity-50">
+                         <span>آپارتمان</span><span class="border border-grey px-2 mx-1 rounded-start-0 fig-round">دیروز</span>
+                      </div>
+                      <p  class="my-2 font-cap">رهن و اجاره آپارتمان 186 متری</p>
+
+                      <div class="d-flex figure-caption  opacity-50">
+                        <span>
+                          <img src="./assets/img/gallery/plan.png" class="" alt="...">
+                          186 متر
+                        </span><span class=" px-2 mx-1 rounded-start-0 fig-round">
+                          <img src="./assets/img/gallery/bedroom.png" class="" alt="...">
+                          3 اتاق
+                        </span>
+                     </div>
+                     <p  class="my-2  text-primary font-cap"><span class="font-num">400</span>میلیون رهن/ <span class="font-num">12</span>میلیون اجاره</p>
+                    </div>
+                  </div>
+                </div>
+                 
+                <div class="col-md-3 mb-3 mb-md-0">
+                  <div class="card h-100 border-0">
+                    <div class="position-relative">
+                      <img src="./assets/img/gallery/Bg.png" class="card-img-top" alt="...">
+                      <div class="position-absolute top-0 end-0 m-2">
+                        <img src="./assets/img/gallery/Vector (Stroke).png" class="" alt="...">
+                      </div>
+                      <div class="position-absolute ps  m-2 text-grey rounded   img-font">
+                        <div class="flex">
+                          <img src="./assets/img/gallery/location.png" class="" alt="...">
+                           <span>نیاوران</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex figure-caption  opacity-50">
+                         <span>آپارتمان</span><span class="border border-grey px-2 mx-1 rounded-start-0 fig-round">دیروز</span>
+                      </div>
+                      <p  class="my-2 font-cap">رهن و اجاره آپارتمان 186 متری</p>
+
+                      <div class="d-flex figure-caption  opacity-50">
+                        <span>
+                          <img src="./assets/img/gallery/plan.png" class="" alt="...">
+                          186 متر
+                        </span><span class=" px-2 mx-1 rounded-start-0 fig-round">
+                          <img src="./assets/img/gallery/bedroom.png" class="" alt="...">
+                          3 اتاق
+                        </span>
+                     </div>
+                     <p  class="my-2  text-primary font-cap">توافقی</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3 mb-md-0">
+                  <div class="card h-100 border-0">
+                    <div class="position-relative">
+                      <img src="./assets/img/gallery/Pic.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex figure-caption  opacity-50">
+                         <span>آپارتمان</span><span class="border border-grey px-2 mx-1 rounded-start-0 fig-round">دیروز</span>
+                      </div>
+                      <p  class="my-2 font-cap">رهن و اجاره آپارتمان 186 متری</p>
+
+                      <div class="d-flex figure-caption  opacity-50">
+                        <span>
+                          <img src="./assets/img/gallery/plan.png" class="" alt="...">
+                          186 متر
+                        </span><span class=" px-2 mx-1 rounded-start-0 fig-round">
+                          <img src="./assets/img/gallery/bedroom.png" class="" alt="...">
+                          3 اتاق
+                        </span>
+                     </div>
+                     <p  class="my-2  text-primary font-cap"><span class="font-num">400</span>میلیون رهن/ <span class="font-num">12</span>میلیون اجاره</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item "  >
+              <div class="row h-100">
+                <div class="col-md-3 mb-3 mb-md-0">
+                  <div class="card h-100 border-0">
+                    <div class="position-relative">
+                      <img src="./assets/img/gallery/Bg.png" class="card-img-top" alt="...">
+                      <div class="position-absolute top-0 end-0 m-2">
+                        <img src="./assets/img/gallery/Vector (Stroke).png" class="" alt="...">
+                      </div>
+                      <div class="position-absolute ps  m-2 text-grey rounded   img-font">
+                        <div class="flex">
+                          <img src="./assets/img/gallery/location.png" class="" alt="...">
+                           <span>نیاوران</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex figure-caption  opacity-50">
+                         <span>آپارتمان</span><span class="border border-grey px-2 mx-1 rounded-start-0 fig-round">دیروز</span>
+                      </div>
+                      <p  class="my-2 font-cap">رهن و اجاره آپارتمان 186 متری</p>
+
+                      <div class="d-flex figure-caption  opacity-50">
+                        <span>
+                          <img src="./assets/img/gallery/plan.png" class="" alt="...">
+                          186 متر
+                        </span><span class=" px-2 mx-1 rounded-start-0 fig-round">
+                          <img src="./assets/img/gallery/bedroom.png" class="" alt="...">
+                          5 اتاق
+                        </span>
+                     </div>
+                     <p  class="my-2  text-primary font-cap"><span class="font-num">400</span>میلیون رهن/ <span class="font-num">12</span>میلیون اجاره</p>
+                    </div>
+                  </div>
+                </div>
+
+
+             
+              </div>
+
+            </div>
+
+
+          
+
+            </div>
+        </div>
+        
+        <div class="d-flex justify-content-center justify-content-md-start">
+          <div class="position-relative">
+            <button  type="button" class="my-btn">
+              مشاهده همه
+            </button>
+            <img src="./assets/img/icons/1675306788538.png" class="position-absolute ps-btn" alt="...">
+          </div>
+        </div>
+    </section>
+
+    <section class="pb-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4 ">
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <div class="position-relative">
+                <img  src="./assets/img/gallery/Alireza-Shokran03i 1.png" class="img-size "  alt="">
+              <div class="position-absolute ps-img">
+                    <div class="card main-card">
+                      <img  src="./assets/img/gallery/Alireza-Shokrani2-edit 1.png"  alt="...">
+                      <div class="card-body text-center">
+                        <p class="card-text font-card text-1000">در متراژ بیش از1000+ ملک مسکونی،تجاری و اداری، آماده خرید یا اجاره برای شماست</p>
+                      </div>
+                    </div>
+              </div>
+              
+                <div class="position-absolute p-group">
+                  <img  src="./assets/img/gallery/Group.png" class="img-group"  alt="">
+                </div>
+               <div class="position-absolute p-sign d-none d-lg-inline">
+                <img  src="./assets/img/gallery/Sign.png" class="img-sign"  alt="">
+               </div>
+             
+             </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8 ps-sm-8 mt-6 mt-lg-0 text-center text-md-start">
+            <h6 class="text-muted opacity-50">خدمات متراژ</h6>
+            <h3 class="mt-3 mb-4">
+             <span class="border-bottom border-primary border-3">چرا</span>
+              متراژ را انتخاب می کنیم؟
+            </h3>
+            
+            <div class="d-flex align-items-center my-3">
+               <div class="bg-secondary  rounded-circle p-3">
+                <img  src="./assets/img/gallery/contract.png"   alt="">
+               </div>
+               <div class="mx-4">
+                <p class="font-cap2 text-1000 mb-0">
+                  صدور قرارداد رسمی به همراه کد رهگیری
+               </p>
+               <span class="text-muted font-card lh-1">
+              متراژ قرارداد کاملا رسمی ،دارای هلوگرام  و کد رهگیری صادر می کندکه قابل پیگیری است. یکی از خدمات متراژ امکان درخواست قرارداد به صورت انلاین است
+               </span>
+               </div>
+            </div>
+
+          <div class="d-flex align-items-center my-3">
+            <div class="bg-secondary  rounded-circle p-3">
+              <img  src="./assets/img/gallery/home light.png"   alt="">
+            </div>
+            <div class="mx-4">
+              <p class="font-cap2  mb-0">
+                صدور قرارداد رسمی به همراه کد رهگیری
+            </p>
+            <span class="text-muted font-card lh-1">
+            متراژ قرارداد کاملا رسمی ،دارای هلوگرام  و کد رهگیری صادر می کندکه قابل پیگیری است. یکی از خدمات متراژ امکان درخواست قرارداد به صورت انلاین است
+            </span>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-center my-3">
+            <div class="bg-secondary  rounded-circle p-3">
+              <img  src="./assets/img/gallery/consultant.png"   alt="">
+            </div>
+            <div class="mx-4">
+              <p class="font-cap2  mb-0">
+                صدور قرارداد رسمی به همراه کد رهگیری
+            </p>
+            <span class="text-muted font-card lh-1">
+            متراژ قرارداد کاملا رسمی ،دارای هلوگرام  و کد رهگیری صادر می کندکه قابل پیگیری است. یکی از خدمات متراژ امکان درخواست قرارداد به صورت انلاین است
+            </span>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-center my-4">
+            <div class="bg-secondary  rounded-circle p-3">
+              <img  src="./assets/img/gallery/search home.png"   alt="">
+            </div>
+            <div class="mx-4">
+              <p class="font-cap2  mb-0">
+                صدور قرارداد رسمی به همراه کد رهگیری
+            </p>
+            <span class="text-muted font-card lh-1">
+            متراژ قرارداد کاملا رسمی ،دارای هلوگرام  و کد رهگیری صادر می کندکه قابل پیگیری است. یکی از خدمات متراژ امکان درخواست قرارداد به صورت انلاین است
+            </span>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center justify-content-md-start">
+          <div class="position-relative">
+            <button  type="button" class="my-btn bg-primary text-white border-0">
+              خدمات متراژ
+            </button>
+            <img src="./assets/img/icons/1675306633512.png" class="position-absolute ps-btn" alt="...">
+          </div>
+          </div>
+          
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+</body>
+<script src="./vendors/@popperjs/popper.min.js"></script>
+<script src="./vendors/bootstrap/bootstrap.min.js"></script>
+<script src="./vendors/is/is.min.js"></script>
+<script src="./assets/js/theme.js"></script>
+
+</html>
